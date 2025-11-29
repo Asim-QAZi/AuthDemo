@@ -1,0 +1,121 @@
+/* Form box */
+#formid {
+    width: 320px;
+    margin: 100px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #cfcfcf;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+/* Input fields */
+#formid input {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 2px solid #d1d1d1;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+#formid input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+/* Submit button */
+#formid button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#formid button:hover {
+    background-color: #45a049;
+}
+
+/* Optional: spacing between labels and inputs */
+#formid {
+    line-height: 1.8;
+}
+#loginid {
+    width: 300px;
+    margin: 100px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #c7c7c7;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+#loginid input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#loginid input:focus {
+    border-color: #0984e3;
+    box-shadow: 0 0 6px rgba(9,132,227,0.4);
+}
+
+#loginid button {
+    width: 100%;
+    padding: 12px;
+    background: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#loginid button:hover {
+    background: #086ac0;
+}
+
+.lnk {
+    width: 100%;
+    background: #2d3436;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-bottom: 3px solid #636e72;
+    position: fixed;      /* stays on top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#ll{
+    background-color: #c7c7c7;
+}
+
+#btn{
+    position:absolute;
+    top:90%;
+    color:red;
+    left:50%;
+}
